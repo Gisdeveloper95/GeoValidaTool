@@ -1,0 +1,1738 @@
+{
+    "main.CC_Centro_Poblado": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_Corregimiento": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_Limite_Municipio": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_departamento": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_municipio": {
+                "type": "String",
+                "required": false
+            },
+            "nombre_municipio": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_Localidad_comuna": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_Perimetro": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_departamento": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_municipio": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_avaluo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre_geografico": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_nombre": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_Sector_rural": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_Sector_urbano": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_barrio": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_sector": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_manzana": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_barrio": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.CC_vereda": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_sector": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.Extdireccion": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "T_Seq": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_direccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "es_direccion_principal": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_postal": {
+                "type": "String",
+                "required": false
+            },
+            "clase_via_principal": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "valor_via_principal": {
+                "type": "String",
+                "required": false
+            },
+            "letra_via_principal": {
+                "type": "String",
+                "required": false
+            },
+            "sector_ciudad": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "valor_via_generadora": {
+                "type": "String",
+                "required": false
+            },
+            "letra_via_generadora": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predio": {
+                "type": "String",
+                "required": false
+            },
+            "sector_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "complemento": {
+                "type": "String",
+                "required": false
+            },
+            "nombre_predio": {
+                "type": "String",
+                "required": false
+            },
+            "extunidadedificcnfsica_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "extinteresado_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_construccion_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_nu_spcjrdcrdsrvcios_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_n_spcjrdcndddfccion_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_terreno_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_unidadconstruccion_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_predio_direccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_servidumbretransito_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Id_2": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid_2": {
+                "type": "String",
+                "required": false
+            },
+            "departamento": {
+                "type": "String",
+                "required": false
+            },
+            "municipio": {
+                "type": "String",
+                "required": false
+            },
+            "id_operacion": {
+                "type": "String",
+                "required": false
+            },
+            "tiene_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_orip": {
+                "type": "String",
+                "required": false
+            },
+            "matricula_inmobiliaria": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_homologado": {
+                "type": "String",
+                "required": false
+            },
+            "interrelacionado": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_homologado_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "nupre": {
+                "type": "String",
+                "required": false
+            },
+            "avaluo_catastral": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia": {
+                "type": "Double",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "condicion_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "destinacion_economica": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "clase_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "categoria_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": false
+            },
+            "local_id": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POINT"
+    },
+    "main.Lc_Tipo_predio": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "area_terreno": {
+                "type": "Double",
+                "required": false
+            },
+            "avaluo_terreno": {
+                "type": "Double",
+                "required": false
+            },
+            "manzana_vereda_codigo": {
+                "type": "String",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": false
+            },
+            "local_id": {
+                "type": "String",
+                "required": false
+            },
+            "baunit": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Id_2": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid_2": {
+                "type": "String",
+                "required": false
+            },
+            "departamento": {
+                "type": "String",
+                "required": false
+            },
+            "municipio": {
+                "type": "String",
+                "required": false
+            },
+            "id_operacion": {
+                "type": "String",
+                "required": false
+            },
+            "tiene_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_orip": {
+                "type": "String",
+                "required": false
+            },
+            "matricula_inmobiliaria": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_homologado": {
+                "type": "String",
+                "required": false
+            },
+            "interrelacionado": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_homologado_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "nupre": {
+                "type": "String",
+                "required": false
+            },
+            "avaluo_catastral": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia": {
+                "type": "Double",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "condicion_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "destinacion_economica": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "clase_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "categoria_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres_2": {
+                "type": "String",
+                "required": false
+            },
+            "local_id_2": {
+                "type": "String",
+                "required": false
+            },
+            "iliCode": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.Zona_homo_fisicarural": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_zona_fisica": {
+                "type": "String",
+                "required": false
+            },
+            "area_homogenea_tierra": {
+                "type": "Double",
+                "required": false
+            },
+            "disponibilidad_agua": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "influencia_vial": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "uso_actual_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "norma_uso_suelo": {
+                "type": "String",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.Zona_homo_fisicaurbana": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_zona_fisica": {
+                "type": "String",
+                "required": false
+            },
+            "topografia": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "influencia_vial": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "servicio_publico": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "uso_actual_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "norma_uso_suelo": {
+                "type": "String",
+                "required": false
+            },
+            "tipificacion_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.Zona_homo_geoeconomicarural": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_zona_geoeconomica": {
+                "type": "String",
+                "required": false
+            },
+            "valor_hectarea": {
+                "type": "Double",
+                "required": false
+            },
+            "subzona_fisica": {
+                "type": "String",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.Zona_homo_geoeconomicaurbana": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_zona_geoeconomica": {
+                "type": "String",
+                "required": false
+            },
+            "valor_metro": {
+                "type": "Double",
+                "required": false
+            },
+            "subzona_fisica": {
+                "type": "String",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_construccion": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "identificador": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_dominio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_pisos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_sotanos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_mezanines": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_semisotanos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "anio_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "avaluo_construccion": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia_construccion": {
+                "type": "Double",
+                "required": false
+            },
+            "area_construccion": {
+                "type": "Double",
+                "required": false
+            },
+            "altura": {
+                "type": "Double",
+                "required": false
+            },
+            "observaciones": {
+                "type": "String",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": false
+            },
+            "local_id": {
+                "type": "String",
+                "required": false
+            },
+            "baunit": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Id_2": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid_2": {
+                "type": "String",
+                "required": false
+            },
+            "departamento": {
+                "type": "String",
+                "required": false
+            },
+            "municipio": {
+                "type": "String",
+                "required": false
+            },
+            "id_operacion": {
+                "type": "String",
+                "required": false
+            },
+            "tiene_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_orip": {
+                "type": "String",
+                "required": false
+            },
+            "matricula_inmobiliaria": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_homologado": {
+                "type": "String",
+                "required": false
+            },
+            "interrelacionado": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_homologado_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "nupre": {
+                "type": "String",
+                "required": false
+            },
+            "avaluo_catastral": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia": {
+                "type": "Double",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "condicion_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "destinacion_economica": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "clase_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "categoria_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres_2": {
+                "type": "String",
+                "required": false
+            },
+            "local_id_2": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_derecho_tipo": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "area_terreno": {
+                "type": "Double",
+                "required": false
+            },
+            "avaluo_terreno": {
+                "type": "Double",
+                "required": false
+            },
+            "manzana_vereda_codigo": {
+                "type": "String",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": false
+            },
+            "local_id": {
+                "type": "String",
+                "required": false
+            },
+            "baunit": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Id_2": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid_2": {
+                "type": "String",
+                "required": false
+            },
+            "departamento": {
+                "type": "String",
+                "required": false
+            },
+            "municipio": {
+                "type": "String",
+                "required": false
+            },
+            "id_operacion": {
+                "type": "String",
+                "required": false
+            },
+            "tiene_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_orip": {
+                "type": "String",
+                "required": false
+            },
+            "matricula_inmobiliaria": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_homologado": {
+                "type": "String",
+                "required": false
+            },
+            "interrelacionado": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_homologado_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "nupre": {
+                "type": "String",
+                "required": false
+            },
+            "avaluo_catastral": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia": {
+                "type": "Double",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "condicion_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "destinacion_economica": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "clase_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "categoria_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres_2": {
+                "type": "String",
+                "required": false
+            },
+            "local_id_2": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_2": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "iliCode": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_predio": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "area_terreno": {
+                "type": "Double",
+                "required": false
+            },
+            "avaluo_terreno": {
+                "type": "Double",
+                "required": false
+            },
+            "manzana_vereda_codigo": {
+                "type": "String",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": false
+            },
+            "local_id": {
+                "type": "String",
+                "required": false
+            },
+            "baunit": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Id_2": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid_2": {
+                "type": "String",
+                "required": false
+            },
+            "departamento": {
+                "type": "String",
+                "required": false
+            },
+            "municipio": {
+                "type": "String",
+                "required": false
+            },
+            "id_operacion": {
+                "type": "String",
+                "required": false
+            },
+            "tiene_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_orip": {
+                "type": "String",
+                "required": false
+            },
+            "matricula_inmobiliaria": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_homologado": {
+                "type": "String",
+                "required": false
+            },
+            "interrelacionado": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_homologado_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "nupre": {
+                "type": "String",
+                "required": false
+            },
+            "avaluo_catastral": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia": {
+                "type": "Double",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "condicion_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "destinacion_economica": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "clase_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "categoria_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres_2": {
+                "type": "String",
+                "required": false
+            },
+            "local_id_2": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_unidadconstruccion": {
+        "fields": {
+            "fid": {
+                "type": "OID",
+                "required": true
+            },
+            "geom": {
+                "type": "Geometry",
+                "required": false
+            },
+            "T_Id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "planta_ubicacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "area_construida": {
+                "type": "Double",
+                "required": false
+            },
+            "altura": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_caracteristicasunidadconstruccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": false
+            },
+            "local_id": {
+                "type": "String",
+                "required": false
+            },
+            "baunit": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Id_2": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid_2": {
+                "type": "String",
+                "required": false
+            },
+            "departamento": {
+                "type": "String",
+                "required": false
+            },
+            "municipio": {
+                "type": "String",
+                "required": false
+            },
+            "id_operacion": {
+                "type": "String",
+                "required": false
+            },
+            "tiene_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_orip": {
+                "type": "String",
+                "required": false
+            },
+            "matricula_inmobiliaria": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_homologado": {
+                "type": "String",
+                "required": false
+            },
+            "interrelacionado": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "codigo_homologado_fmi": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "nupre": {
+                "type": "String",
+                "required": false
+            },
+            "avaluo_catastral": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia": {
+                "type": "Double",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "condicion_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "destinacion_economica": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "clase_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "categoria_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version_2": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres_2": {
+                "type": "String",
+                "required": false
+            },
+            "local_id_2": {
+                "type": "String",
+                "required": false
+            },
+            "T_Id_3": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "T_Ili_Tid_3": {
+                "type": "String",
+                "required": false
+            },
+            "identificador": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_dominio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_unidad_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_planta": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "total_habitaciones": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "total_banios": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "total_locales": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "total_plantas": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "uso": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "anio_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "avaluo_unidad_construccion": {
+                "type": "Double",
+                "required": false
+            },
+            "area_construida_2": {
+                "type": "Double",
+                "required": false
+            },
+            "area_privada_construida": {
+                "type": "Double",
+                "required": false
+            },
+            "observaciones": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version_3": {
+                "type": "Date",
+                "required": false
+            },
+            "fin_vida_util_version_3": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres_3": {
+                "type": "String",
+                "required": false
+            },
+            "local_id_3": {
+                "type": "String",
+                "required": false
+            },
+            "iliCode": {
+                "type": "String",
+                "required": false
+            },
+            "planta_total": {
+                "type": "String",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    }
+}

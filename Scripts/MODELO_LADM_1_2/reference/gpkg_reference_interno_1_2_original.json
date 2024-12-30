@@ -1,0 +1,1923 @@
+{
+    "main.av_zonahomogeneafisicarural": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_zona_fisica": {
+                "type": "String",
+                "required": true
+            },
+            "area_homogenea_tierra": {
+                "type": "Double",
+                "required": false
+            },
+            "disponibilidad_agua": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "influencia_vial": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "uso_actual_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "norma_uso_suelo": {
+                "type": "String",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.av_zonahomogeneafisicaurbana": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_zona_fisica": {
+                "type": "String",
+                "required": true
+            },
+            "topografia": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "influencia_vial": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "servicio_publico": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "uso_actual_suelo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "norma_uso_suelo": {
+                "type": "String",
+                "required": false
+            },
+            "tipificacion_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.av_zonahomogeneageoeconomicarural": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_zona_geoeconomica": {
+                "type": "String",
+                "required": true
+            },
+            "valor_hectarea": {
+                "type": "Double",
+                "required": true
+            },
+            "subzona_fisica": {
+                "type": "String",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.av_zonahomogeneageoeconomicaurbana": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_zona_geoeconomica": {
+                "type": "String",
+                "required": true
+            },
+            "valor_metro": {
+                "type": "Double",
+                "required": true
+            },
+            "subzona_fisica": {
+                "type": "String",
+                "required": false
+            },
+            "vigencia": {
+                "type": "DateOnly",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_barrio": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "nombre": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_sector": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_centropoblado": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "nombre": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_corregimiento": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "nombre": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_limitemunicipio": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_departamento": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_municipio": {
+                "type": "String",
+                "required": true
+            },
+            "nombre_municipio": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_localidadcomuna": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "nombre": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_manzana": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_barrio": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_nomenclaturavial": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_via": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "numero_via": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYLINE"
+    },
+    "main.cc_perimetrourbano": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_departamento": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_municipio": {
+                "type": "String",
+                "required": true
+            },
+            "tipo_avaluo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre_geografico": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_nombre": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_sectorrural": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_sectorurbano": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.cc_vereda": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": true
+            },
+            "nombre": {
+                "type": "String",
+                "required": true
+            },
+            "codigo_sector": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.col_transformacion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "T_Seq": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "localizacion_transformada": {
+                "type": "Geometry",
+                "required": true
+            },
+            "lc_puntocontrol_transformacion_y_resultado": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_puntolindero_transformacion_y_resultado": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_puntolevantamiento_transformacion_y_resultado": {
+                "type": "BigInteger",
+                "required": false
+            }
+        },
+        "geometry_type": "POINT"
+    },
+    "main.extdireccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "T_Seq": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_direccion": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "es_direccion_principal": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "localizacion": {
+                "type": "Geometry",
+                "required": false
+            },
+            "codigo_postal": {
+                "type": "String",
+                "required": false
+            },
+            "clase_via_principal": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "valor_via_principal": {
+                "type": "String",
+                "required": false
+            },
+            "letra_via_principal": {
+                "type": "String",
+                "required": false
+            },
+            "sector_ciudad": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "valor_via_generadora": {
+                "type": "String",
+                "required": false
+            },
+            "letra_via_generadora": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predio": {
+                "type": "String",
+                "required": false
+            },
+            "sector_predio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "complemento": {
+                "type": "String",
+                "required": false
+            },
+            "nombre_predio": {
+                "type": "String",
+                "required": false
+            },
+            "extunidadedificcnfsica_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "extinteresado_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_construccion_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_nu_spcjrdcrdsrvcios_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_n_spcjrdcndddfccion_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_terreno_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_unidadconstruccion_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_predio_direccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "lc_servidumbretransito_ext_direccion_id": {
+                "type": "BigInteger",
+                "required": false
+            }
+        },
+        "geometry_type": "POINT"
+    },
+    "main.gc_barrio": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_sector": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_comisionesconstruccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_comisionesterreno": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_comisionesunidadconstruccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "numero_predial": {
+                "type": "String",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_construccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "identificador": {
+                "type": "String",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_dominio": {
+                "type": "String",
+                "required": false
+            },
+            "numero_pisos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_sotanos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_mezanines": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_semisotanos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "codigo_edificacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "codigo_terreno": {
+                "type": "String",
+                "required": false
+            },
+            "area_construida": {
+                "type": "Double",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "gc_predio": {
+                "type": "BigInteger",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_direccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "T_Seq": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "valor": {
+                "type": "String",
+                "required": false
+            },
+            "principal": {
+                "type": "SmallInteger",
+                "required": false
+            },
+            "geometria_referencia": {
+                "type": "Geometry",
+                "required": false
+            },
+            "gc_prediocatastro_direcciones": {
+                "type": "BigInteger",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYLINE"
+    },
+    "main.gc_manzana": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_barrio": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_perimetro": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_departamento": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_municipio": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_avaluo": {
+                "type": "String",
+                "required": false
+            },
+            "nombre_geografico": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_nombre": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_sectorrural": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_sectorurbano": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_terreno": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "area_terreno_alfanumerica": {
+                "type": "Double",
+                "required": false
+            },
+            "area_terreno_digital": {
+                "type": "Double",
+                "required": false
+            },
+            "manzana_vereda_codigo": {
+                "type": "String",
+                "required": false
+            },
+            "numero_subterraneos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "gc_predio": {
+                "type": "BigInteger",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_unidadconstruccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "identificador": {
+                "type": "String",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_dominio": {
+                "type": "String",
+                "required": false
+            },
+            "tipo_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "planta": {
+                "type": "String",
+                "required": false
+            },
+            "total_habitaciones": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "total_banios": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "total_locales": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "total_pisos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "uso": {
+                "type": "String",
+                "required": false
+            },
+            "anio_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "puntaje": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "area_construida": {
+                "type": "Double",
+                "required": false
+            },
+            "area_privada": {
+                "type": "Double",
+                "required": false
+            },
+            "codigo_terreno": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "gc_construccion": {
+                "type": "BigInteger",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gc_vereda": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "codigo": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_anterior": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "codigo_sector": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gm_curve3dlistvalue": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "T_Seq": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "avalue": {
+                "type": "Geometry",
+                "required": true
+            },
+            "gm_multicurve3d_geometry": {
+                "type": "BigInteger",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYLINE"
+    },
+    "main.gm_surface2dlistvalue": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "T_Seq": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "avalue": {
+                "type": "Geometry",
+                "required": true
+            },
+            "gm_multisurface2d_geometry": {
+                "type": "BigInteger",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.gm_surface3dlistvalue": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "T_Seq": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "avalue": {
+                "type": "Geometry",
+                "required": true
+            },
+            "gm_multisurface3d_geometry": {
+                "type": "BigInteger",
+                "required": false
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_construccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "identificador": {
+                "type": "String",
+                "required": true
+            },
+            "tipo_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo_dominio": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_pisos": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "numero_sotanos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_mezanines": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "numero_semisotanos": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "anio_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "avaluo_construccion": {
+                "type": "Double",
+                "required": false
+            },
+            "valor_referencia_construccion": {
+                "type": "Double",
+                "required": false
+            },
+            "area_construccion": {
+                "type": "Double",
+                "required": true
+            },
+            "altura": {
+                "type": "Double",
+                "required": false
+            },
+            "observaciones": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_lindero": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "longitud": {
+                "type": "Double",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "localizacion_textual": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYLINE"
+    },
+    "main.lc_nu_agrupacionunidadesespaciales": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "nivel_jerarquico": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "nombre": {
+                "type": "String",
+                "required": false
+            },
+            "punto_referencia": {
+                "type": "Geometry",
+                "required": false
+            },
+            "agrupacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POINT"
+    },
+    "main.lc_nu_caraslindero": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "localizacion_textual": {
+                "type": "String",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_nu_espaciojuridicoredservicios": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "estado": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_nu_espaciojuridicounidadedificacion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "tipo": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_puntocontrol": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "id_punto_control": {
+                "type": "String",
+                "required": true
+            },
+            "puntotipo": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "tipo_punto_control": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "exactitud_horizontal": {
+                "type": "Double",
+                "required": true
+            },
+            "exactitud_vertical": {
+                "type": "Double",
+                "required": true
+            },
+            "posicion_interpolacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "metodoproduccion": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            },
+            "ue_lc_servidumbretransito": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_terreno": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_unidadconstruccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_nu_espaciojuridicoredservicios": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_nu_espaciojuridicounidadedificacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POINT"
+    },
+    "main.lc_puntolevantamiento": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "id_punto_levantamiento": {
+                "type": "String",
+                "required": true
+            },
+            "puntotipo": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "tipo_punto_levantamiento": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "fotoidentificacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "exactitud_horizontal": {
+                "type": "Double",
+                "required": true
+            },
+            "exactitud_vertical": {
+                "type": "Double",
+                "required": false
+            },
+            "posicion_interpolacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "metodoproduccion": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            },
+            "ue_lc_servidumbretransito": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_terreno": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_unidadconstruccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_nu_espaciojuridicoredservicios": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_nu_espaciojuridicounidadedificacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POINT"
+    },
+    "main.lc_puntolindero": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "id_punto_lindero": {
+                "type": "String",
+                "required": true
+            },
+            "puntotipo": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "acuerdo": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "fotoidentificacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "exactitud_horizontal": {
+                "type": "Double",
+                "required": true
+            },
+            "exactitud_vertical": {
+                "type": "Double",
+                "required": false
+            },
+            "posicion_interpolacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "metodoproduccion": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            },
+            "ue_lc_servidumbretransito": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_construccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_terreno": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_unidadconstruccion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_nu_espaciojuridicoredservicios": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "ue_lc_nu_espaciojuridicounidadedificacion": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POINT"
+    },
+    "main.lc_servidumbretransito": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "area_servidumbre": {
+                "type": "Double",
+                "required": true
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_terreno": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "area_terreno": {
+                "type": "Double",
+                "required": true
+            },
+            "avaluo_terreno": {
+                "type": "Double",
+                "required": false
+            },
+            "manzana_vereda_codigo": {
+                "type": "String",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": true
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    },
+    "main.lc_unidadconstruccion": {
+        "fields": {
+            "T_Id": {
+                "type": "OID",
+                "required": true
+            },
+            "T_Ili_Tid": {
+                "type": "String",
+                "required": false
+            },
+            "planta_ubicacion": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "area_construida": {
+                "type": "Double",
+                "required": true
+            },
+            "altura": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "geometria": {
+                "type": "Geometry",
+                "required": false
+            },
+            "lc_caracteristicasunidadconstruccion": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "lc_construccion": {
+                "type": "BigInteger",
+                "required": true
+            },
+            "dimension": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "etiqueta": {
+                "type": "String",
+                "required": false
+            },
+            "relacion_superficie": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "nivel": {
+                "type": "BigInteger",
+                "required": false
+            },
+            "comienzo_vida_util_version": {
+                "type": "Date",
+                "required": true
+            },
+            "fin_vida_util_version": {
+                "type": "Date",
+                "required": false
+            },
+            "espacio_de_nombres": {
+                "type": "String",
+                "required": true
+            },
+            "local_id": {
+                "type": "String",
+                "required": true
+            }
+        },
+        "geometry_type": "POLYGON"
+    }
+}
